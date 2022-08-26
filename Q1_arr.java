@@ -10,7 +10,7 @@ public class Q1_arr{
         }
 
         // or can also do it without methods and go old school
-        // to try that comment above for loop and uncomment the on bellow
+        // to try that comment above for loop and uncomment the one bellow
 
 
         // for(int i:arr){

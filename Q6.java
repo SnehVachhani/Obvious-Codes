@@ -14,18 +14,6 @@ class Student {
     private String address;
     private String dob;
 
-    // public Student(int id, String firstName, String lastName, String contactNo,
-    // String branch, String address,
-    // String dob) {
-    // this.setId(id);
-    // this.setFirstName(firstName);
-    // this.setLastName(lastName);
-    // this.setContactNo(contactNo);
-    // this.setBranch(branch);
-    // this.setAddress(address);
-    // this.setDob(dob);
-    // }
-
     public int getId() {
         return id;
     }
@@ -153,8 +141,6 @@ class StudentAdmininstrator {
                     newStudent.setDob(dob))
                 admin.add(newStudent);
         }
-        // admin.add(new Student(id, firstName, lastName, contactNo, branch, address,
-        // dob));
         else
             System.out.println("Enter a unique Id. Id " + id + " already present.");
     }
@@ -197,17 +183,6 @@ class StudentAdmininstrator {
 
         return false;
     }
-
-    // private Student checkByLName(int id, String newLName) {
-    // Student toUpdate = checkById(id);
-    // for (Student student : admin)
-    // if
-    // (toUpdate.getFirstName().toLowerCase().equals(student.getFirstName().toLowerCase())
-    // && newLName.toLowerCase().equals(student.getLastName().toLowerCase()))
-    // return true;
-    // return false;
-    // }
-    // private boolean checkEverythingExceptId()
 
     public boolean printAllNames() {
         if (admin.isEmpty()) {
@@ -376,17 +351,9 @@ public class Q6 {
 
     public static void main(String[] args) {
 
-        admin.addStudent(1, "Divyaraj", "Vachhani", "9409162241", "CP", "xyz9", "01-01-2022");
-        admin.addStudent(2, "Divyaraj", "Parmar", "1234567890", "CP", "xyz,morvi", "15-02-2002");
-        admin.addStudent(3, "ved", "k", "9409162241", "IT", "hetshi", "18-09-2001");
+        // admin.addStudent(1, "Divyaraj", "Vachhani", "9409162241", "CP", "xyz9", "01-01-2022");
+        // admin.addStudent(2, "Divyaraj", "Parmar", "1234567890", "CP", "xyz,morvi", "15-02-2002");
         // admin.addStudent(3, "ved", "k", "9409162241", "IT", "hetshi", "18-09-2001");
-        // admin.printAllNames();
-        // admin.searchNameById(1);
-        // admin.updateFirstName(2, "Divyarajsinh");
-        // admin.searchNameById(2);
-        // admin.listByBranch();
-        // admin.printEveryThing();
-        // String line = sc.nextLine();
         boolean flag = true;
         while (flag) {
             menu();
